@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="490" viewBox="0 0 1120 490" role="img" aria-labelledby="title desc">
+<title id="title">四种成稿策略的字幕抽检匹配</title>
+<desc id="desc">同一10条视频，72处字幕点。自由本地67，固定本地校对65，固定阿里校对63，自由阿里60。不是全片音轨准确率。</desc>
+<rect width="1120" height="490" fill="white"/>
+<g font-family="Heiti SC, PingFang SC, Microsoft YaHei, sans-serif" fill="#17212b">
+<text x="32" y="42" font-size="24" font-weight="600">成稿与原片字幕的匹配程度</text>
+<text x="32" y="70" font-size="15" fill="#56616e">10条视频 · 72处字幕点 · 参照未经人类逐字听审</text>
+<line x1="355.0" y1="96" x2="355.0" y2="389" stroke="#e0e4e8"/>
+<text x="355.0" y="417" text-anchor="middle" font-size="13" fill="#56616e">0%</text>
+<line x1="497.5" y1="96" x2="497.5" y2="389" stroke="#e0e4e8"/>
+<text x="497.5" y="417" text-anchor="middle" font-size="13" fill="#56616e">25%</text>
+<line x1="640.0" y1="96" x2="640.0" y2="389" stroke="#e0e4e8"/>
+<text x="640.0" y="417" text-anchor="middle" font-size="13" fill="#56616e">50%</text>
+<line x1="782.5" y1="96" x2="782.5" y2="389" stroke="#e0e4e8"/>
+<text x="782.5" y="417" text-anchor="middle" font-size="13" fill="#56616e">75%</text>
+<line x1="925.0" y1="96" x2="925.0" y2="389" stroke="#e0e4e8"/>
+<text x="925.0" y="417" text-anchor="middle" font-size="13" fill="#56616e">100%</text>
+<text x="333" y="132" text-anchor="end" font-size="16">Codex 自由执行＋本地 ASR</text>
+<rect data-strategy="direct" data-exact="67" x="355" y="110" width="530.417" height="32" fill="#526b7f"/>
+<text x="945" y="132" font-size="17" font-weight="600">67/72 · 93.1%</text>
+<text x="333" y="204" text-anchor="end" font-size="16">本地固定双通道＋Codex 校对</text>
+<rect data-strategy="dual_assisted" data-exact="65" x="355" y="182" width="514.583" height="32" fill="#526b7f"/>
+<text x="945" y="204" font-size="17" font-weight="600">65/72 · 90.3%</text>
+<text x="333" y="276" text-anchor="end" font-size="16">阿里固定双通道＋Codex 校对</text>
+<rect data-strategy="cloud_assisted" data-exact="63" x="355" y="254" width="498.750" height="32" fill="#526b7f"/>
+<text x="945" y="276" font-size="17" font-weight="600">63/72 · 87.5%</text>
+<text x="333" y="348" text-anchor="end" font-size="16">Codex 自由执行＋阿里 ASR</text>
+<rect data-strategy="cloud_free" data-exact="60" x="355" y="326" width="475.000" height="32" fill="#526b7f"/>
+<text x="945" y="348" font-size="17" font-weight="600">60/72 · 83.3%</text>
+<text x="32" y="458" font-size="14" fill="#56616e">一处字幕只差一个字也计为未完整匹配；此图不能解释为原声转写准确率排名。</text>
+</g></svg>

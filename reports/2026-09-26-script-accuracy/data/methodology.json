@@ -1,0 +1,53 @@
+{
+  "as_of": "2026-09-26",
+  "eligible_real_videos": 20,
+  "adapted_templates_excluded": 30,
+  "sample_seed": 20260926,
+  "sample_count": 10,
+  "previously_tuned_cases_excluded": [
+    "C03",
+    "C12",
+    "C13",
+    "C15"
+  ],
+  "sample_ids": [
+    "C01",
+    "C02",
+    "C04",
+    "C05",
+    "C10",
+    "C11",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+  ],
+  "preselected_frames": 80,
+  "eligible_subtitle_checkpoints": 72,
+  "excluded_duplicate_effect_or_counter_frames": 8,
+  "reference_characters_normalized": 613,
+  "numeric_checkpoint_occurrences": 25,
+  "normalization": [
+    "Unicode NFKC",
+    "Punctuation and whitespace ignored",
+    "Chinese and Arabic numeral equivalents; colloquial 一千二 treated as 1200",
+    "哎/诶/欸 treated as equivalent"
+  ],
+  "matching": "Minimum character edit distance against a contiguous output substring; exact checkpoint requires zero edits. Numeric values require an unambiguous complete value inside the matched span.",
+  "reference_review": "Codex visual review of fixed source frames; no human audio ground-truth transcript",
+  "scope_excluded": [
+    "Douyin download success",
+    "Full-transcript hallucination and omission rate",
+    "Formal speaker accuracy",
+    "Brand/package adaptation accuracy",
+    "Strict end-to-end speed benchmark"
+  ],
+  "execution_notes": [
+    "Independent groups did not read other groups or reference/score artifacts",
+    "Local free group used Whisper small for six samples; four mainly used FunASR, including one with extra Whisper cross-check",
+    "Cloud free group reused same-source Paraformer-v1 full transcripts and successfully re-recognized six short segments",
+    "Cloud fixed groups reused same-trial OCR artifacts",
+    "Network retries, OCR reuse, and preparation time prevent strict speed ranking"
+  ],
+  "privacy": "Anonymous aggregate/per-video counters only; source videos, full transcripts, API keys, local paths, signed URLs, and session histories are not included."
+}
