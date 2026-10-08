@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+inputs/
+work/
+edit-*/
+*.mp4
+*.wav
+*.mov
+*.log
+chrome-profile/

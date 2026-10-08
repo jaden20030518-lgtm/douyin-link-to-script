@@ -1,0 +1,9 @@
+# Versions used in the local environment when preparing this source release.
+funasr==1.4.15
+torch==2.10.0
+torchaudio==2.10.0
+modelscope==1.40.0
+opencv-python==4.13.0.92
+numpy==2.3.5
+pyobjc-framework-Vision==12.2; sys_platform == "darwin"
+pyobjc-framework-Cocoa==12.2.2; sys_platform == "darwin"

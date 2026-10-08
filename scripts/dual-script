@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Colleague entrypoint for dual-channel script pipeline.
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+exec python3 "$ROOT/helpers/dual_script_pipeline.py" "$@"
