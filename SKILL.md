@@ -20,7 +20,7 @@ metadata:
 - 从链接取得视频：`node scripts/douyin_download.mjs <链接> --output-dir ./inputs`。
 - 从本地视频提取原稿：`./scripts/dual-script <视频文件> --work-root ./work --language zh`，内部并行调用 OCR 与 ASR。
 - 对照输出的 `script_original.md`、`diff.json` 与原片，先核对原台词和角色，再依照本 Skill 的套餐规则改编。品牌稿另存，不覆盖原稿。
-- 识别方法与已知限制见 [README.md](README.md)。流水线输出的是原视频脚本；品牌改编由 Codex 按本 Skill 执行。
+- 识别方法与已知限制见 [使用说明](docs/usage.md)。流水线输出的是原视频脚本；品牌改编由 Codex 按本 Skill 执行。
 
 1. 收集链接及用户已知信息：品牌/门店、商品或服务、价格与活动规则、出镜人、拍摄地点、发布时间、目标受众和期望时长。
 2. 尝试读取视频页面的标题、文案、画面与声音；若无法访问，不要编造视频内容，改用用户提供的截图、转写或“对标方向”完成，并把待确认项标成【待确认】。
